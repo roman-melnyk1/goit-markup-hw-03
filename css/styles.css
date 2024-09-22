@@ -27,6 +27,7 @@ body {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .logo {
@@ -37,7 +38,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 73px;
+    margin-right: 76px;
 }
 
 .studio {
@@ -68,11 +69,13 @@ body {
 }
 
 .contact-info-addres {
+    display: flex;
     font-style: normal;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contact-info-item {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -93,11 +96,13 @@ body {
 .menu {
     display: flex;
     gap: 40px;
+    margin-right: 332px;
 }
 
 .contact-info {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 
@@ -112,7 +117,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 187.69px;
@@ -128,7 +133,11 @@ body {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    display: flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .order-button:hover,
@@ -138,6 +147,7 @@ body {
 
 .hero-back {
     background-color: #2e2f42;
+    padding: 188px 0 188px;
 }
 
 
@@ -147,6 +157,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-content {
@@ -158,20 +169,27 @@ body {
     text-transform: capitalize;
 }
 
-.features-item {
+.features-list {
     display: flex;
     gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+
 }
 
 /* team */
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
+
 }
 
 .team-headder {
@@ -187,7 +205,7 @@ body {
 
 .team-items {
     width: calc((100% - 72px) / 4);
-    padding-bottom: 120px;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-names {
@@ -197,6 +215,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-job {
@@ -206,6 +225,11 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.team-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* portfolio */
@@ -218,6 +242,7 @@ body {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .inventions-name {
@@ -226,6 +251,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .inventions-work {
@@ -240,10 +266,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
@@ -255,10 +288,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .footer-main {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -269,6 +304,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .studio-footer {
@@ -316,12 +354,22 @@ img {
     overflow: hidden;
 }
 
-.container {
-    max-width: 1155px;
+.container-header {
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 .section {
