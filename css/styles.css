@@ -323,7 +323,7 @@ body {
 
 .portfolio-item {
     border: 1px solid #e7e9fc;
-    display: flex;
+    width: calc((100% - 48px) / 3);
 }
 
 /* Блокова модель/flexbox */
