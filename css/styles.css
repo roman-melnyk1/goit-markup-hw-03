@@ -31,7 +31,6 @@ body {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
 }
 
 .logo {
@@ -42,7 +41,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    margin-right: 73px;
 }
 
 .studio {
@@ -76,7 +75,7 @@ body {
     display: flex;
     font-style: normal;
     align-items: center;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .contact-info-item {
@@ -95,12 +94,12 @@ body {
 .page-nav {
     display: flex;
     align-items: center;
+    margin-right: 332px;
 }
 
 .menu {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .contact-info {
@@ -121,8 +120,6 @@ body {
     text-align: center;
     color: #ffffff;
     max-width: 496px;
-    padding-top: 187.69px;
-    padding-bottom: 291.51px;
     margin: 0 auto;
 }
 
@@ -168,7 +165,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-transform: capitalize;
 }
 
 .features-list {
@@ -208,6 +204,7 @@ body {
 .team-items {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    background-color: #ffffff;
 }
 
 .team-names {
@@ -322,7 +319,6 @@ body {
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 }
 
