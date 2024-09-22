@@ -303,10 +303,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
-    display: inline-block;
+    color: #4d5ae5;
     margin-bottom: 16px;
-
+    display: inline-block;
 }
 
 .studio-footer {
@@ -317,6 +316,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .portfolio-item {
@@ -352,15 +352,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.container-header {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
 }
 
 .container {
